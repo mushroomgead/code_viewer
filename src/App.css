@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* Resume */
+.header,#about-me,#education,#experience,
+#interests,#skill,#activity,#contact {
+  min-height: 300px;
+  display: inline-block;
+  width: 90%;
+}
+h2{
+  text-transform: uppercase;
+}
+.header{
+  background: #f48b94;
+  color: #ffffff;
+  width: 100%;
+} 
+#about-me{
+  border-left: 5px solid #f48b94;
+  padding: 0 17px;
+}
+#education{
+  border-left: 5px solid #f7a7a6;
+  padding: 0 17px;
+}
+#experience{
+  border-left: 5px solid #fdd2b5;
+  padding: 0 17px;
+}
+#interests{
+  border-left: 5px solid #dbebc2;
+  padding: 0 17px;
+}
+#skill{
+  border-left: 5px solid #acdbc9;
+  padding: 0 17px;
+}
+#activity{
+  border-left: 5px solid #4ac1d0;
+  padding: 0 17px;
+}
+#contact{
+  border-left: 5px solid #8de7f3;
+  padding: 0 17px;
+}
+.block-name{
+  padding-top: 114px;
+  margin: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+.circle{
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: #7c9e47;
+  background: linear-gradient(#8BC34A,#a6d463);
+  color: #ffffff;
+  border-radius: 100px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+  margin: 5px;
+}
+#front-end, #back-end, #control-version{
+  width: 33%;
+  display: inherit;
+}
+
+#front-end{
+
+}
+#back-end{
+
+}
+#control-version{
+
+}
+.footer{
+  background: #8de7f3;
+  color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+  .circle{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .circle{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+  }
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
