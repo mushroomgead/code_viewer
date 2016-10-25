@@ -27,13 +27,26 @@
 }
 h2{
   text-transform: uppercase;
-  text-align: center;
+  /*text-align: center;*/
 }
 .header{
   background: #f48b94;
   color: #ffffff;
   width: 100%;
-} 
+}
+.firstlime{
+  width: 10%;
+  padding-top:2px;
+  border-bottom: 2px solid #000000;
+}
+.subfirstlime{
+  width: 5%;
+  padding-top:2px;
+  border-bottom: 2px solid #000000;
+}
+.secoundline{
+  width: 70%;
+}
 .block-left img{
   float: left;
   width: 40%;
@@ -49,39 +62,40 @@ h2{
 #about-me{
   border-left: 5px solid #f48b94;
   padding: 0 10px;
+  padding: 10px 10px;
 }
 #education{
   border-left: 5px solid #f7a7a6;
   border-top: 1px solid #f7a7a6;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 #experience{
   border-left: 5px solid #fdd2b5;
   border-top: 1px solid #fdd2b5;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 #interests{
   border-left: 5px solid #dbebc2;
   border-top: 1px solid #dbebc2;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 #skill{
   border-left: 5px solid #acdbc9;
   border-top: 1px solid #acdbc9;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 #activity{
   border-left: 5px solid #4ac1d0;
   border-top: 1px solid #4ac1d0;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 #contact{
   border-left: 5px solid #8de7f3;
   border-top: 1px solid #8de7f3;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 .block-name{
-  padding-top: 114px;
+  padding-top: 74px;
   margin: 5px;
   text-align: center;
   font-size: 30px;
@@ -98,7 +112,7 @@ h2{
   display: inline-block;
   float: left;
   text-transform: uppercase;
-  margin: 8px;
+  margin: 4px;
 }
 #front-end, #back-end, #control-version{
   width: 33%;
